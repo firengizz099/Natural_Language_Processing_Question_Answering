@@ -1,12 +1,12 @@
 # Natural_Language_Processing_Question_Answering
 
-Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip istemediğini sormak için bir döngü içeren basit bir etkileşimli programı temsil ediyor. Kullandığı kütüphane, Hugging Face'in Transformers kütüphanesidir, bu kütüphane özellikle doğal dil işleme (NLP) ve makine öğrenimiyle ilgili modelleri ve işlevleri kolayca kullanmanıza olanak tanır. Bu kod, özel bir model ve belirli bir soru-cevap işlemi için bir dönüştürücü (tokenizer) seçmek için Hugging Face'in Transformers kütüphanesini kullanır.
+**Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip istemediğini sormak için bir döngü içeren basit bir etkileşimli programı temsil ediyor. Kullandığı kütüphane, Hugging Face'in Transformers kütüphanesidir, bu kütüphane özellikle doğal dil işleme (NLP) ve makine öğrenimiyle ilgili modelleri ve işlevleri kolayca kullanmanıza olanak tanır. Bu kod, özel bir model ve belirli bir soru-cevap işlemi için bir dönüştürücü (tokenizer) seçmek için Hugging Face'in Transformers kütüphanesini kullanır.**
 
-İşte bu kodun temel işlevselliği:
+**İşte bu kodun temel işlevselliği:**
 
-İlgili kütüphaneler ve modeller içe aktarılır: Hugging Face Transformers kütüphanesinden pipeline, AutoModelForQuestionAnswering, ve AutoTokenizer sınıfları içe aktarılır. Ayrıca, bir model ve bir dönüştürücü (tokenizer) belirlenir.
+**İlgili kütüphaneler ve modeller içe aktarılır: Hugging Face Transformers kütüphanesinden pipeline, AutoModelForQuestionAnswering, ve AutoTokenizer sınıfları içe aktarılır. Ayrıca, bir model ve bir dönüştürücü (tokenizer) belirlenir.**
 
-Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).
+**Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).**
 
 Kullanıcının cevabına göre bilgilendirme yapılır: Kullanıcı "Evet" derse, yapay zeka ile ilgili genel bilgi verilir. Ardından kullanıcıdan bir soru alınır ve bu soru, belirtilen bağlam ("context") içinde cevaplanmaya çalışılır. Cevap, question_answerer kullanılarak bulunur ve ekrana yazdırılır.
 
