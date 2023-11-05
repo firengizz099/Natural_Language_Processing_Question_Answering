@@ -10,7 +10,7 @@ Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alın�
 
 Kullanıcının cevabına göre bilgilendirme yapılır: Kullanıcı "Evet" derse, yapay zeka ile ilgili genel bilgi verilir. Ardından kullanıcıdan bir soru alınır ve bu soru, belirtilen bağlam ("context") içinde cevaplanmaya çalışılır. Cevap, question_answerer kullanılarak bulunur ve ekrana yazdırılır.
 
-Dünya nüfusu hakkında bilgi alma isteği: Aynı şekilde kullanıcıya dünya nüfusu hakkında bilgi almak isteyip istemediği sorulur (request2). Kullanıcı "Evet" derse, dünya nüfusu ile ilgili genel bilgi verilir ve kullanıcıdan bir soru alınır. Bu soru, belirtilen bağlam içinde cevaplanmaya çalışılır.**
+Dünya nüfusu hakkında bilgi alma isteği: Aynı şekilde kullanıcıya dünya nüfusu hakkında bilgi almak isteyip istemediği sorulur (request2). Kullanıcı "Evet" derse, dünya nüfusu ile ilgili genel bilgi verilir ve kullanıcıdan bir soru alınır. Bu soru, belirtilen bağlam içinde cevaplanmaya çalışılır.
 
 Kullanıcıya çıkış seçeneği sunulur: Kullanıcıya başka bir soru sormak veya programdan çıkmak isteyip istemediği sorulur. "q" tuşuna basarsa, program döngüyü sonlandırır ve çıkar.
 
