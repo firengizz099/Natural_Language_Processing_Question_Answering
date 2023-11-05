@@ -6,7 +6,7 @@ Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip 
 
 İlgili kütüphaneler ve modeller içe aktarılır: Hugging Face Transformers kütüphanesinden pipeline, AutoModelForQuestionAnswering, ve AutoTokenizer sınıfları içe aktarılır. Ayrıca, bir model ve bir dönüştürücü (tokenizer) belirlenir.
 
-**Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).**
+Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).
 
 Kullanıcının cevabına göre bilgilendirme yapılır: Kullanıcı "Evet" derse, yapay zeka ile ilgili genel bilgi verilir. Ardından kullanıcıdan bir soru alınır ve bu soru, belirtilen bağlam ("context") içinde cevaplanmaya çalışılır. Cevap, question_answerer kullanılarak bulunur ve ekrana yazdırılır.
 
