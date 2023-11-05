@@ -4,7 +4,7 @@ Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip 
 
 İşte bu kodun temel işlevselliği:
 
-**İlgili kütüphaneler ve modeller içe aktarılır: Hugging Face Transformers kütüphanesinden pipeline, AutoModelForQuestionAnswering, ve AutoTokenizer sınıfları içe aktarılır. Ayrıca, bir model ve bir dönüştürücü (tokenizer) belirlenir.**
+İlgili kütüphaneler ve modeller içe aktarılır: Hugging Face Transformers kütüphanesinden pipeline, AutoModelForQuestionAnswering, ve AutoTokenizer sınıfları içe aktarılır. Ayrıca, bir model ve bir dönüştürücü (tokenizer) belirlenir.
 
 **Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).**
 
