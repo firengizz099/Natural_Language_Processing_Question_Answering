@@ -1,6 +1,6 @@
 # Natural_Language_Processing_Question_Answering
 
-**Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip istemediğini sormak için bir döngü içeren basit bir etkileşimli programı temsil ediyor. Kullandığı kütüphane, Hugging Face'in Transformers kütüphanesidir, bu kütüphane özellikle doğal dil işleme (NLP) ve makine öğrenimiyle ilgili modelleri ve işlevleri kolayca kullanmanıza olanak tanır. Bu kod, özel bir model ve belirli bir soru-cevap işlemi için bir dönüştürücü (tokenizer) seçmek için Hugging Face'in Transformers kütüphanesini kullanır.**
+Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip istemediğini sormak için bir döngü içeren basit bir etkileşimli programı temsil ediyor. Kullandığı kütüphane, Hugging Face'in Transformers kütüphanesidir, bu kütüphane özellikle doğal dil işleme (NLP) ve makine öğrenimiyle ilgili modelleri ve işlevleri kolayca kullanmanıza olanak tanır. Bu kod, özel bir model ve belirli bir soru-cevap işlemi için bir dönüştürücü (tokenizer) seçmek için Hugging Face'in Transformers kütüphanesini kullanır.
 
 **İşte bu kodun temel işlevselliği:**
 
