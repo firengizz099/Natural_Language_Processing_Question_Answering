@@ -8,7 +8,7 @@ Bu kod, kullanıcıdan adını ve belirli konular hakkında bilgi almak isteyip 
 
 Kullanıcı ile etkileşim: Bir döngü kullanılarak kullanıcıdan adı alınır (name) ve yapay zeka hakkında bilgi almak isteyip istemediğini sormak için "Evet/Hayır" şeklinde bir soru sorulur (request).
 
-**Kullanıcının cevabına göre bilgilendirme yapılır: Kullanıcı "Evet" derse, yapay zeka ile ilgili genel bilgi verilir. Ardından kullanıcıdan bir soru alınır ve bu soru, belirtilen bağlam ("context") içinde cevaplanmaya çalışılır. Cevap, question_answerer kullanılarak bulunur ve ekrana yazdırılır.**
+Kullanıcının cevabına göre bilgilendirme yapılır: Kullanıcı "Evet" derse, yapay zeka ile ilgili genel bilgi verilir. Ardından kullanıcıdan bir soru alınır ve bu soru, belirtilen bağlam ("context") içinde cevaplanmaya çalışılır. Cevap, question_answerer kullanılarak bulunur ve ekrana yazdırılır.
 
 **Dünya nüfusu hakkında bilgi alma isteği: Aynı şekilde kullanıcıya dünya nüfusu hakkında bilgi almak isteyip istemediği sorulur (request2). Kullanıcı "Evet" derse, dünya nüfusu ile ilgili genel bilgi verilir ve kullanıcıdan bir soru alınır. Bu soru, belirtilen bağlam içinde cevaplanmaya çalışılır.**
 
