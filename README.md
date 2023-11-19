@@ -16,4 +16,4 @@ Kullanıcıya çıkış seçeneği sunulur: Kullanıcıya başka bir soru sormak
 
 Cevaplar ve bilgilendirmeler ekrana yazdırılır: Kullanıcıya sorulan sorulara verilen cevaplar ve bilgilendirmeler, ekrana yazdırılır.
 
-**Döngü devam eder veya program sona erer: Kullanıcı başka bir soru sormak isterse veya çıkmak isterse programın davranışı buna göre ayarlanır.**
+Döngü devam eder veya program sona erer: Kullanıcı başka bir soru sormak isterse veya çıkmak isterse programın davranışı buna göre ayarlanır.
