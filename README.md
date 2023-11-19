@@ -14,6 +14,6 @@ Dünya nüfusu hakkında bilgi alma isteği: Aynı şekilde kullanıcıya dünya
 
 Kullanıcıya çıkış seçeneği sunulur: Kullanıcıya başka bir soru sormak veya programdan çıkmak isteyip istemediği sorulur. "q" tuşuna basarsa, program döngüyü sonlandırır ve çıkar.
 
-**Cevaplar ve bilgilendirmeler ekrana yazdırılır: Kullanıcıya sorulan sorulara verilen cevaplar ve bilgilendirmeler, ekrana yazdırılır.**
+Cevaplar ve bilgilendirmeler ekrana yazdırılır: Kullanıcıya sorulan sorulara verilen cevaplar ve bilgilendirmeler, ekrana yazdırılır.
 
 **Döngü devam eder veya program sona erer: Kullanıcı başka bir soru sormak isterse veya çıkmak isterse programın davranışı buna göre ayarlanır.**
